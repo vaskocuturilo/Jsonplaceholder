@@ -2,8 +2,11 @@ package todos;
 
 import api.controllers.TodosController;
 import api.todos.Todos;
+import listener.LogListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(LogListener.class)
 public class TestTodosApi {
 
     @Test
