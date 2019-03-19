@@ -2,6 +2,7 @@ package todos;
 
 import api.controllers.TodosController;
 import api.todos.Todos;
+import assertions.TestTodosApiAssert;
 import listener.LogListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -21,6 +22,7 @@ public class TestTodosApi {
         Todos todos = new Todos("foo", "foo", 1, 1);
         TodosController todosController = new TodosController(todos);
         todosController.addNewElement(todos);
+
     }
 
     @Test
