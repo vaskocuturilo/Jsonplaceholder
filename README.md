@@ -8,7 +8,6 @@
 
 - GET, POST, PUT, PATCH, DELETE data
 
-
 ## Requirements:
 - Use any *object-oriented language*
 - Use *Rest Assured* Http client for API requests
@@ -18,7 +17,19 @@
 ## Instructions how to run:
 Execute command 
 to run test ```gradle clean test```
-to generate report ```gradle allureReport, gradle allureServe```
+
+### Generate Allure report 
+
+```gradle allure:report```
+
+### Open Allure report in browser
+
+```gradle allure:serve```
+
+**List of technologies**: Java 8, Gradle, Rest Assured, TestNG, Allure, PageObject.
+
+**Note**: You should have installed Chrome browser, Gradle.
+
 
 ![](https://a.radikal.ru/a04/1903/47/ed0bd234f948.png)
 
